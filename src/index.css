@@ -1,0 +1,239 @@
+#root {
+  padding: 0px 7px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  /* flex: 1 100%; */
+  background-color: #eee;
+  border: solid 1px #d4d3d3;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 8px 8px;
+  font-size: 12px;
+}
+
+aside a {
+  text-decoration: none;
+  color: #7e7e7e;
+}
+
+aside a:hover {
+  color: rgb(122, 172, 211);
+}
+
+/* .AppLayoutWrap {
+  padding: 10px 10px;
+} */
+
+.ListLayout {
+  display: flex;
+  /* flex-flow: column wrap; */
+  flex: 1;
+  height: 100%;
+}
+
+aside {
+  height: 100%;
+  flex: 0 0 15vw;
+  /* max-width: 140px; */
+  background: #eee;
+  padding: 3px 3px;
+  margin: 3px 10px 3px 0px;
+  border-radius: 5px;
+  border: solid 1px #d4d3d3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px 8px;
+  margin: 3px 0;
+}
+
+li {
+  padding: 3px 0px;
+}
+
+main {
+  flex: 1;
+  background: #eee;
+  margin: 3px 0px 3px 0px;
+  border-radius: 5px;
+  border: solid 1px #d4d3d3;
+  padding: 7px;
+  color: #666666;
+}
+
+main > div {
+  padding: 2px 2px;
+}
+
+.welcome {
+  color: #666666;
+  text-align: center;
+}
+
+.ItemLayout nav {
+  margin: 3px 0px 3px 0px;
+  border-radius: 5px;
+  border: solid 1px #c4c4c4;
+  padding: 7px;
+  /* background-color: #f3f3f3; */
+  color: #666666;
+  font-size: 12px;
+  text-align: right;
+}
+
+.ItemLayout > div {
+  margin: 3px 0px 3px 0px;
+  border-radius: 5px;
+  border: solid 1px #c4c4c4;
+  padding: 7px;
+  /* background-color: #f3f3f3; */
+  color: #666666;
+}
+/*
+
+
+.main a {
+  color: #313131;
+  text-decoration: none;
+}
+
+.main a:hover {
+  color: rgb(122, 172, 211);
+}
+/*
+nav a {
+  padding: 3px 4px 3px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(122, 172, 211);
+  display: block
+}
+
+nav a:hover {
+  color: #064579;
+} */
+
+/*.AppLayout {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%;
+}
+
+.AppLayoutBody {
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+} */
+
+/* overflow: hidden;  */
+/* font-weight: bold; */
+/* text-align: center; */
+
+/* 
+.wrapper > * {
+  padding: 10px;
+  /* flex: 1 100%; */
+/* flex: auto initial; */
+/* 
+header {
+  flex: 1 100%;
+  width: 100%;
+  background-color: #eee;
+  border: solid 1px #d4d3d3;
+  border-radius: 5px;
+  margin: 10px 10px 5px 10px;
+  font-size: 12px;
+}
+
+.homePage {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.editPagePost {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.dataFormPost form {
+  height: 100%;
+  flex: 1;
+  max-width: 140px;
+  background: #eee;
+  padding: 10px 10px;
+  margin: 3px 0px;
+  border: solid 1px #d4d3d3;
+  border-radius: 5px;
+} */
+
+/* 
+
+
+
+li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.names {
+  border-radius: 5px;
+  border: 1px solid #313131;
+  background: #eee;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  border: solid 1px #d4d3d3;
+  border-radius: 5px;
+} */
+
+/* .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+  
+  .App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+  }
+  
+  .App-header > h2 {
+    color: white;
+  }
+  
+  .App-intro {
+    font-size: large;
+  } */
+
+/* li a {
+  overflow: hidden;
+  background-color: #333;
+ */
+
+.demo {
+  margin: 16px;
+}
+.demo-nav {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 16px;
+  background: #f8f8f8;
+}
+.demo-nav a {
+  line-height: 30px;
+  padding: 0 8px;
+}
+.app-list {
+  margin-top: 16px;
+}

@@ -1,0 +1,174 @@
+a {
+  text-decoration: none;
+  color: #7e7e7e;
+}
+
+a:hover {
+  color: rgb(122, 172, 211);
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+
+  /* overflow: hidden;  */
+  /* font-weight: bold; */
+  /* text-align: center; */
+}
+
+.wrapper > * {
+  padding: 10px;
+  /* flex: 1 100%; */
+  /* flex: auto initial; */
+}
+
+.header {
+  flex: 1 100%;
+  /* position: fixed; */
+  /* top: 0;
+  left: 0; */
+  /* z-index: 20; */
+  width: 100%;
+  /* padding: 10px 10px 10px 10px; */
+  background-color: #eee;
+  border: solid 1px #d4d3d3;
+  border-radius: 5px;
+  margin: 10px 10px 5px 10px;
+  font-size: 12px;
+}
+
+.homePage {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.editPagePost {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.dataFormPost form {
+  height: 100%;
+  flex: 1;
+  max-width: 140px;
+  background: #eee;
+  padding: 10px 10px;
+  margin: 3px 0px;
+  border: solid 1px #d4d3d3;
+  border-radius: 5px;
+}
+
+.sidenav {
+  height: 100%;
+  flex: 1;
+  max-width: 140px;
+  /* width: 140px; */
+  /* position: relative; */
+  /* z-index: 1; */
+  /* top: 2px;
+  left: 2px; */
+  background: #eee;
+  /* overflow-x: hidden; */
+  /* margin: 0px 10px 0px 0px;   */
+  padding: 10px 10px;
+  margin: 3px 0px;
+  border: solid 1px #d4d3d3;
+  border-radius: 5px;
+}
+
+.sidenav a {
+  padding: 3px 4px 3px 15px;
+  /* text-decoration: none; */
+  /* font-size: 20px; */
+  /* color: rgb(122, 172, 211); */
+  display: block;
+}
+
+.sidenav a:hover {
+  /* color: #064579; */
+}
+
+.main,
+previewPost {
+  /* margin-left: 145px;  */
+  /* font-size: 28px; */
+  flex: 4;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+
+.main li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.main a {
+  color: #313131;
+  text-decoration: none;
+}
+
+.main a:hover {
+  color: rgb(122, 172, 211);
+}
+
+li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.names {
+  border-radius: 5px;
+  border: 1px solid #313131;
+  background: #eee;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  border: solid 1px #d4d3d3;
+  border-radius: 5px;
+}
+
+/* .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+  
+  .App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+  }
+  
+  .App-header > h2 {
+    color: white;
+  }
+  
+  .App-intro {
+    font-size: large;
+  } */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+/* li a {
+  overflow: hidden;
+  background-color: #333;
+ */
